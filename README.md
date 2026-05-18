@@ -26,11 +26,8 @@ The annotation scheme follows [Davidson et al. (2017)](https://arxiv.org/abs/170
 | File | Description |
 |------|-------------|
 | `lv_hate_speech_full.csv` | Complete dataset (1,000 comments) |
-| `lv_hate_speech_train.csv` | Training split (700 comments) |
-| `lv_hate_speech_val.csv` | Validation split (150 comments) |
-| `lv_hate_speech_test.csv` | Test split (150 comments) |
 
-Each file contains two columns: `text` (the comment) and `label` (0/1/2).
+The file contains two columns: `text` (the comment) and `label` (0/1/2).
 
 ## Data Collection
 
