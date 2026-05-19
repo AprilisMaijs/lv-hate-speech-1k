@@ -31,7 +31,7 @@ The file contains two columns: `text` (the comment) and `label` (0/1/2).
 
 ## Data Collection
 
-Comments were collected from Latvian online news portals. All comments were publicly visible at the time of collection. Annotation was performed by a single annotator using a structured labeling guide.
+Comments were sourced from the [Latvian user comment dataset 1.0](http://hdl.handle.net/11356/1407) (Shekhar et al., 2021), a corpus of ~12.4M comments from the Delfi news portal (2014–2019). Comments were filtered by language, length, and a curated keyword list to produce a candidate set for annotation. Annotation was performed by a single annotator using a structured labeling guide.
 
 ## Intended Use
 
@@ -49,7 +49,7 @@ This dataset must **not** be used to:
 
 ## Citation
 
-If you use this dataset, please cite the accompanying thesis:
+If you use this dataset, please cite the accompanying thesis and the source corpus:
 
 ```bibtex
 @mastersthesis{kairis2026latvian,
@@ -58,6 +58,17 @@ If you use this dataset, please cite the accompanying thesis:
   school    = {University of Latvia},
   year      = {2026},
   url       = {https://github.com/AprilisMaijs/lv-hate-speech-1k}
+}
+```
+
+```bibtex
+@dataset{shekhar2021latvian,
+  title     = {Latvian user comment dataset 1.0},
+  author    = {Shekhar, Ravi and Purver, Matthew and Pollak, Senja and Pelicon, Andraž and Krustok, Ivar},
+  year      = {2021},
+  publisher = {Ekspress Meedia Group},
+  doi       = {10.34894/EBQJRF},
+  url       = {http://hdl.handle.net/11356/1407}
 }
 ```
 
